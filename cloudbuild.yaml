@@ -9,11 +9,11 @@ steps:
       - "compute"
       - "instances"
       - "update-container"
-      - "shaikh-flask-backend-instance"
+      - "shaikh-flask-instance"
       - "--container-image"
       - "docker.io/meenaz033/minaz-backend-flask:latest" # Using Docker Hub image directly
       - "--zone"
-      - "northamerica-northeast2-a"
+      - "us-central1-a"
 
 options:
   logging: CLOUD_LOGGING_ONLY
